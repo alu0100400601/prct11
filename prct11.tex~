@@ -1,0 +1,67 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newcommand{\PI}{{$\pi$}}
+
+\title[Presentación con Beamer]{Presentación sobre \PI usando BEAMER}
+\author[Dácil]{Dácil Batista}
+\institute{ULL}
+\date[24-04-2014]{24 de abril de 2014}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor{palette primary}{use=structure,fg=white,bg=MiVioleta}
+\setbeamercolor{palette secundary}{use=structure,fg=white,bg=MiAzul}
+\setbeamercolor{palette tertiary}{use=structure,fg=white,bg=MiGris}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Motivación y objetivos}
+
+\begin{frame}
+\frametitle{Introducción}
+
+Beamer es una clase de LaTeX para la creación de presentaciones.
+
+Funciona con pdflatex, dvips y LyX. El nombre viene del vocablo alemán "beamer", un pseudo-anglicismo que significa videoproyector. Al estar basado en LaTeX, Beamer es especialmente útil para preparar presentaciones en las que es necesario mostrar gran cantidad de expresiones matemáticas, el fuerte de dicho sistema de maquetación.
+
+\end{frame}
+
+\section{Ejercicios propuestos}
+\begin{frame}
+\frametitle{Ejemplo}
+
+Esto es un ejemplo de como funciona beamer
+\begin{itemize}
+\item Creación de una carpeta de proyecto \pause
+\item Creación de diapositivas \pause
+\item Entregable \pause
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertemplatebookbibitems
+\bibitem[Guia Docente,2013]{guia}
+Guia docente (Año 2013)
+{\small $https://www.google.es$}
+
+\end{thebibliography}
+\end{frame}
+\end{document}

@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.26pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{5}{0}{1}
+\beamer@sectionintoc {2}{Inicios del n\IeC {\'u}mero {$\pi $}}{6}{0}{2}
+\beamer@sectionintoc {3}{Aplicaciones del n\IeC {\'u}mero {$\pi $}}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Geometr\IeC {\'\i }a y Trigonometr\IeC {\'\i }a}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{F\IeC {\'\i }sica}{13}{0}{3}
+\beamer@subsectionintoc {3}{3}{Probabilidad y estad\IeC {\'\i }stica}{14}{0}{3}
